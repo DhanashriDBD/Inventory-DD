@@ -1,5 +1,5 @@
 ---
-- name: Fetching EC2 inventory 
+- name: Fetching EC2 inventory
     #command: chmod +x etc/ansible/inventory/csvtocsv.py
   shell: python3 /home/inventory/roles/ec2inventory/files/ec2-inv.py
 
@@ -12,3 +12,4 @@
 - name: Sending Inventory data to Recipients
   when: sendyes
   shell: python3 /home/inventory/roles/ec2inventory/files/send-mail.py
+
