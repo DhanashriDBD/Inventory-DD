@@ -36,8 +36,8 @@ vpc-e0fe2d87,172.31.0.0/16,ap-southeast-2,available,subnet-ff3ca498,172.31.0.0/2
 vpc-8f4de1e4,172.31.0.0/16,eu-central-1,available,subnet-6a7e0901,172.31.16.0/20,eu-central-1a,794965340553
 vpc-8f4de1e4,172.31.0.0/16,eu-central-1,available,subnet-3721aa7a,172.31.0.0/20,eu-central-1c,794965340553
 vpc-8f4de1e4,172.31.0.0/16,eu-central-1,available,subnet-e8ce6195,172.31.32.0/20,eu-central-1b,794965340553
-vpc-e439df9f,172.31.0.0/16,us-east-1,available,subnet-9392e8ac,172.31.48.0/20,us-east-1e,794965340553
 vpc-e439df9f,172.31.0.0/16,us-east-1,available,subnet-2f9aeb72,172.31.32.0/20,us-east-1d,794965340553
+vpc-e439df9f,172.31.0.0/16,us-east-1,available,subnet-9392e8ac,172.31.48.0/20,us-east-1e,794965340553
 vpc-e439df9f,172.31.0.0/16,us-east-1,available,subnet-2185bf6a,172.31.16.0/20,us-east-1c,794965340553
 vpc-e439df9f,172.31.0.0/16,us-east-1,available,subnet-80f588af,172.31.80.0/20,us-east-1b,794965340553
 vpc-e439df9f,172.31.0.0/16,us-east-1,available,subnet-0ff4db6b,172.31.0.0/20,us-east-1a,794965340553
