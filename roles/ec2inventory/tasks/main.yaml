@@ -1,7 +1,7 @@
 ---
 - name: Fetching EC2 inventory 
     #command: chmod +x etc/ansible/inventory/csvtocsv.py
-  shell: python3 /home/ubuntu/inventory/roles/ec2inventory/files/ec2-inv.py
+  shell: python3 /home/inventory/roles/ec2inventory/files/ec2-inv.py
 
 - name: Ensure Email IDs are exists to send Inventory Data
   aws_ses_identity:
@@ -11,4 +11,4 @@
   register: sendyes
 - name: Sending Inventory data to Recipients
   when: sendyes
-  shell: python3 /home/ubuntu/inventory/roles/ec2inventory/files/send-mail.py
+  shell: python3 /home/inventory/roles/ec2inventory/files/send-mail.py
