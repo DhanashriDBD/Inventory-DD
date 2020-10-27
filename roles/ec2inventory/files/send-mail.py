@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import boto3
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
