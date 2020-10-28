@@ -1,9 +1,7 @@
 ---
 - name: Fetching EC2 inventory
-  become: true
-  become_user: root
     #command: chmod +x etc/ansible/inventory/csvtocsv.py
-  shell: python3 /home/inventory/roles/ec2inventory/files/ec2-inv.py
+  command: python3 /home/inventory/roles/ec2inventory/files/ec2-inv.py
 
 - name: Ensure Email IDs are exists to send Inventory Data
   aws_ses_identity:
